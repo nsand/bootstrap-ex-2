@@ -1,0 +1,17 @@
+{
+  "name": "bootstrap-ex-2",
+  "version": "1.0.0",
+  "description": "OpenShift Bootstrap theme",
+  "main": "index.js",
+  "scripts": {
+    "less": "lessc less/main.less styles/main.css"
+  },
+  "author": "Nick Sandonato",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {
+    "less": "^2.7.2"
+  }
+}

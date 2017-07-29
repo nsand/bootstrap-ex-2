@@ -1,0 +1,39 @@
+
+.panel {
+	margin-top: 200px;
+	.os-drop-shadow();
+}
+
+.panel-heading {
+	.os-drop-shadow();
+}
+
+.panel-default {
+	border: none;
+
+	& > .panel-heading {
+		border-color: @panel-default-heading-bg;
+		padding: 13px 11px;
+
+		& > .panel-title {
+			font-weight: 500;
+			font-size: 12px;
+			line-height: 22px;
+		}
+
+		.badge {
+			background-color: @os-badge-bg;
+			color: @os-white;
+			font-weight: 700;
+			font-size: 11px;
+
+			padding: 6px 10px 6px 11px;
+		}
+	}
+
+	& > .panel-body {
+		border: 1px solid @panel-default-border;
+		border-top: none;
+		min-height: 109px;
+	}
+}
