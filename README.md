@@ -1,4 +1,4 @@
-# Bootsrap Panel
+# Bootstrap Panel
 
 This shows a customized theme for a Bootstrap Panel
 
