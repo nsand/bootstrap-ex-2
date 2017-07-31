@@ -1536,8 +1536,8 @@ body {
 }
 body {
   background-color: #f6f6f6;
-  background-image: radial-gradient(#bbb 5%, transparent 6%);
-  background-size: 18px 18px;
+  background-image: radial-gradient(#bbb 8%, transparent 8%);
+  background-size: 20px 20px;
   font-family: "Open Sans", OpenSans, sans-serif;
 }
 *,
